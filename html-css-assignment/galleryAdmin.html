@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <!-- <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="heading"><h1>SAMEER MIRIYALA</h1></div>
+      <!-- <div class="heading">Profile</div> -->
+      <div class="columns">
+        <ul id="tabs">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutme.html">ABOUT ME</a></li>
+          <li><a href="contact_me.html">CONTACT ME</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="galleryAdmin.html">GALLERY ADMIN</a></li>
+        </ul>
+      </div>
+      <!-- <div class="logos">
+            <i class="fa fa-twitter-square" style="font-size:24px"></i>
+            <i class="fa fa-google-plus-square" style="font-size:24px"></i>
+            <i class="fa fa-facebook-official" style="font-size:24px"></i>
+        </div> -->
+    </div>
+    <!-- <div id="jsonFormat" style="color: white;">
+        <div id="galleryJson" style="color: white;"></div>
+        oooo
+    </div> <br> -->
+    <p style="font-size: 1.3rem; font-weight: 600; text-align: center; color: white; margin: 8px;">To edit please click on the picture</p> 
+    <div class="gallery" id="galleryAd"></div>
+    <!-- <div onload="childElements()"></div> -->
+    
+      <div style="position: fixed; right: 0; bottom: 0; margin-bottom: 30px; margin-right: 20px">
+        <a href="addNew.html">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+          <i class="material-icons">+</i>
+        </button>
+      </a>
+      </div>
+    <script type="text/javascript">
+        function openThisCard(event) {
+          var index = $(event.srcElement).parent().index();
+          // var row = $(event.srcElement).parent().index();   
+          console.log("index="+index);
+          console.log("inside event function");
+          setData(index);
+          location.href='edit.html';
+        }
+  
+      </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
+    <!-- <script type="text/javascript" src="json_data_loader.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+
+    
+    <script>
+      function childElements() {
+        var galleryChild = document.getElementsByTagName("img");
+
+        // console.log(img);
+        console.log(galleryChild);
+        console.log(galleryChild.length);
+        console.log(galleryChild[0]);
+      }
+    </script>
+  </body>
+</html>

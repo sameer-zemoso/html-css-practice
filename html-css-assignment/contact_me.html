@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="heading"><h1>SAMEER MIRIYALA</h1></div>
+        <!-- <div class="heading">Profile</div> -->
+        <div class="columns">
+            <ul id="tabs">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contact_me.html">CONTACT ME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="galleryAdmin.html">GALLERY ADMIN</a></li>
+            </ul>
+        </div>
+        <!-- <div class="logos">
+            <i class="fa fa-twitter-square" style="font-size:24px"></i>
+            <i class="fa fa-google-plus-square" style="font-size:24px"></i>
+            <i class="fa fa-facebook-official" style="font-size:24px"></i>
+        </div> -->
+    </div>
+    <div class="banner">
+        <img src="email.jpeg" style="width: 100%; opacity: 0.1; height: 88vh;">
+        <!-- <div class="home-text">
+            <p><h1 style="margin-bottom: 2px;">Write to me at <br></h1>
+                <i class="fa fa-google-plus-square" style="font-size:24px"></i>  sameer.miriyala@zemosolabs.com<br>
+             <i class="fa fa-linkedin-square" style="font-size: 24px;"></i>
+                <a href="https://in.linkedin.com/in/sameer-miriyala-b88370140" target="_blank" style="color: white; text-decoration: none;">
+                    <span style="font-family: 'Roboto', sans-serif;"> linkedin</span>
+                </a><br>
+             <i class="fa fa-twitter-square" style="font-size:24px"> 
+                <span style="font-family: 'Roboto', sans-serif; font-size: medium;">twitter</span></i></p> 
+        </div> -->
+        <div class="about-text">
+            <h1 style="margin-bottom: 2px;">Contact form</h1>
+            <p style="margin-top: 2px;">Please fill your information and we'll get back to you in no time.</p>
+        </div>
+        <div class="form">
+            <div class="input-group">
+                <label>First Name</label> 
+                <p class="nameResult"></p>
+                <input type="text" class="form-input firstname" id="firstname" placeholder="Enter your first name"/>    
+            </div> <br>
+            <div class="input-group">
+                <label>Last Name</label>
+                <p id="lastNameResult"></p> 
+                <input type="text" class="form-input" id="lastname" placeholder="Enter your last name/surname"/>    
+            </div> <br>
+            <div class="input-group">
+                <label>Email</label>
+                <p id="emailResult"></p>
+                <input type="text" class="form-input" id="email"
+                placeholder="Enter your email-id"/>    <br>
+            </div> <br>
+            <div class="input-group">
+                <label>Subject</label>
+                <p id="subjectResult"></p>
+                <textarea class="form-input" name="subject" id="subject" cols="30" rows="7"></textarea><br>
+            </div>
+            <div class="input-group">
+                <button type="submit" class="submitButton">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

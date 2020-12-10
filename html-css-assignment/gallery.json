@@ -1,0 +1,24 @@
+{
+  "galleryarr": [
+    {
+      "name": "dada",
+      "url": "https://imgeng.jagran.com/images/2019/jul/20_05_2019-sourav_ganguly_world_cup_2003_192395151562565361688.jpg",
+      "info": "the great indian captain",
+      "uploaded_date": "09/12/2020"
+    },
+
+    {
+      "name": "dhoni",
+      "url": "https://t0.gstatic.com/images?q=tbn:ANd9GcQT1Bybchl7r4pt1Jo2OAIc7rwWK1izBGK3xsndD179334FoZV_5Yx51E7vpyk_",
+      "info": "the most successful indian captain",
+      "uploaded_date": "09/12/2020"
+    },
+
+    {
+      "name": "virat",
+      "url": "https://t1.gstatic.com/images?q=tbn:ANd9GcS5hCGSJyskVOR1qNQwuRzLsq99Qz60CqHIGsAZQ7Z-wooooD934jJM6979cpnD",
+      "info": "the present indian captain",
+      "uploaded_date": "09/12/2020"
+    }
+  ]
+}
